@@ -37,7 +37,7 @@ export default function App() {
         <NavBody>
           <NavbarLogo />
           <div className="relative z-20 flex items-center gap-3">
-            <NavbarButton href="#hero" variant="primary">Download App</NavbarButton>
+            <NavbarButton href="https://github.com/Emmanuel-devlab/waka-apk-downloads/releases/latest/download/waka-ai.apk" variant="primary">Download App</NavbarButton>
           </div>
         </NavBody>
 
@@ -53,7 +53,7 @@ export default function App() {
             isOpen={isMobileMenuOpen}
             onClose={() => setIsMobileMenuOpen(false)}
           >
-            <NavbarButton href="#hero" variant="primary" className="w-full">
+            <NavbarButton href="https://github.com/Emmanuel-devlab/waka-apk-downloads/releases/latest/download/waka-ai.apk" variant="primary" className="w-full">
               Download App
             </NavbarButton>
           </MobileNavMenu>

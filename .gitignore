@@ -3,3 +3,5 @@ dist/
 .env
 .env.*
 .vercel/
+public/downloads/waka-ai.apk
+.vercel
